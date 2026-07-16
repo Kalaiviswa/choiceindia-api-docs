@@ -17,8 +17,9 @@ Source: <https://finx.choiceindia.com/api/OpenAPI/Info>
 - [07-payments.md](07-payments.md) — Payments, payout and debit funds
 - [08-edis.md](08-edis.md) — eDIS verification (CDSL) for non-POA clients
 - [09-market-data.md](09-market-data.md) — Touchline / scrip details, market status, chart history
-- [10-error-codes.md](10-error-codes.md) — Response envelope and HTTP error codes
-- [11-appendix.md](11-appendix.md) — All schema definitions
+- [10-websocket.md](10-websocket.md) — FINX Interactive Socket: real-time market status, order & trade streaming
+- [11-error-codes.md](11-error-codes.md) — Response envelope and HTTP error codes
+- [12-appendix.md](12-appendix.md) — All schema definitions
 
 ## Endpoint summary
 
@@ -36,6 +37,8 @@ Source: <https://finx.choiceindia.com/api/OpenAPI/Info>
 | Market Status | 1 |
 | ScripInfo | 2 |
 | **Total** | **41** |
+
+Real-time updates (market status, order & trade streaming) are delivered over the **FINX Interactive Socket** WebSocket — see [10-websocket.md](10-websocket.md).
 
 ## Authentication (quick reference)
 
